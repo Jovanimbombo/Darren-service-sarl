@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +15,9 @@
 <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
-    <div class="menu-mobile-overlay" id="menuOverlay" aria-hidden="true"></div>
+<div class="menu-mobile-overlay" id="menuOverlay" aria-hidden="true"></div>
 
-<!-- EN-TÊTE / NAVIGATION  -->
+<!-- ==================== EN-TÊTE / NAVIGATION ==================== -->
 <header class="en-tete" id="enTete">
   <nav class="navigation conteneur">
     <a href="#accueil" class="logo-marque">
@@ -39,13 +39,15 @@
       <li class="menu-item-cta-mobile"><a href="#contact" class="bouton bouton-principal bouton-nav-mobile">Demander un devis</a></li>
     </ul>
 
-    <a href="#contact" class="bouton bouton-principal bouton-nav">Devis gratuit</a>
+    <a href="#contact" class="bouton bouton-principal bouton-nav">Demander un devis</a>
 
     <button class="bouton-hamburger" id="boutonHamburger" aria-label="Ouvrir le menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </nav>
 </header>
+
+<!-- ==================== 1. SECTION HERO ==================== -->
 <section class="hero" id="accueil">
   <div class="hero-fond" style="background-image:url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1600&q=80');"></div>
   <div class="hero-degrade"></div>
@@ -62,7 +64,8 @@
       <a href="#contact" class="bouton bouton-principal bouton-large">Demander un devis</a>
       <a href="#services" class="bouton bouton-fantome bouton-large">Découvrir nos services</a>
     </div>
-      <div class="hero-statistiques" id="statistiques">
+
+    <div class="hero-statistiques" id="statistiques">
       <div class="statistique">
         <span class="statistique-chiffre" data-compte="9">0</span><span class="statistique-plus">+</span>
         <span class="statistique-libelle">Domaines d'expertise</span>
@@ -90,7 +93,7 @@
     <div class="apropos-image reveal" data-reveal="gauche">
       <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80" alt="Équipe professionnelle DARREN SERVICE Sarl" loading="lazy">
       <div class="apropos-badge">
-        <span class="apropos-badge-chiffre">+10</span>
+        <span class="apropos-badge-chiffre">+4</span>
         <span class="apropos-badge-texte">années d'exigence professionnelle</span>
       </div>
     </div>
@@ -126,5 +129,463 @@
   </div>
 </section>
 
+<!-- ==================== 3. NOS SERVICES ==================== -->
+<section class="section section-sombre" id="services">
+  <div class="conteneur">
+    <div class="entete-section reveal">
+      <p class="eyebrow eyebrow-clair"><span class="eyebrow-trait"></span> NOS SERVICES</p>
+      <h2 class="titre-section titre-clair">Neuf expertises, une seule adresse</h2>
+      <p class="sous-titre-section">
+        Une offre complète pensée pour répondre à des besoins concrets, avec le même niveau
+        d'exigence sur chaque prestation.
+      </p>
+    </div>
+
+    <div class="grille-services" id="grilleServices">
+
+      <article class="carte-service reveal">
+        <div class="carte-service-image">
+          <img src="https://th.bing.com/th/id/R.d4acd87768bd4686a46f99fa2758cc6b?rik=UhJT4nWFLTueRA&pid=ImgRaw&r=0" alt="Agent de sécurité privée noir en uniforme bleu avec pantalon noir" loading="lazy">
+        </div>
+        <div class="carte-service-corps">
+          <span class="carte-service-icone" aria-hidden="true">🛡️</span>
+          <h3>Sécurité privée</h3>
+          <p>Protection des entreprises, résidences, événements et personnes par des agents formés,
+             discrets et réactifs, avec des rondes et une surveillance adaptées à chaque site.</p>
+          <a href="#contact" class="lien-savoir-plus">En savoir plus <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="carte-service reveal">
+        <div class="carte-service-image">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.KSk_lIpFlwXfpRtUuK8YjwHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Hôtesse d'accueil professionnelle en tenue élégante" loading="lazy">
+        </div>
+        <div class="carte-service-corps">
+          <span class="carte-service-icone" aria-hidden="true">🎀</span>
+          <h3>Réceptionnistes et hôtesses</h3>
+          <p>Un accueil soigné et professionnel pour vos bureaux, salons et événements, afin de
+             donner à chaque visiteur une première impression à la hauteur de votre image.</p>
+          <a href="#contact" class="lien-savoir-plus">En savoir plus <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="carte-service reveal">
+        <div class="carte-service-image">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80" alt="Chantier de construction et rénovation" loading="lazy">
+        </div>
+        <div class="carte-service-corps">
+          <span class="carte-service-icone" aria-hidden="true">🏗️</span>
+          <h3>Construction et rénovation</h3>
+          <p>Travaux de construction, réhabilitation et rénovation, suivis par des équipes
+             techniques rigoureuses, du gros œuvre aux finitions.</p>
+          <a href="#contact" class="lien-savoir-plus">En savoir plus <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="carte-service reveal">
+        <div class="carte-service-image">
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80" alt="Nettoyage professionnel de locaux" loading="lazy">
+        </div>
+        <div class="carte-service-corps">
+          <span class="carte-service-icone" aria-hidden="true">✨</span>
+          <h3>Nettoyage et assainissement</h3>
+          <p>Prestations de nettoyage professionnel pour bureaux, résidences et espaces
+             industriels, avec des protocoles d'hygiène stricts et un matériel adapté.</p>
+          <a href="#contact" class="lien-savoir-plus">En savoir plus <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="carte-service reveal">
+        <div class="carte-service-image">
+          <img src="https://monassurancebtp.com/files/live/sites/MonAssuranceBTPRenewal/files/images/peintre/peintre6.jpeg" alt="Travaux de peinture résidentielle" loading="lazy">
+        </div>
+        <div class="carte-service-corps">
+          <span class="carte-service-icone" aria-hidden="true">🎨</span>
+          <h3>Peinture résidentielle</h3>
+          <p>Travaux de peinture intérieure et extérieure réalisés avec soin, pour un rendu
+             durable et esthétique qui valorise chaque bien.</p>
+          <a href="#contact" class="lien-savoir-plus">En savoir plus <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="carte-service reveal">
+        <div class="carte-service-image">
+          <img src="https://infosconcourseducation.com/wp-content/uploads/2023/05/PSX_20230524_104635.jpg" alt="Installation et entretien de climatisation" loading="lazy">
+        </div>
+        <div class="carte-service-corps">
+          <span class="carte-service-icone" aria-hidden="true">❄️</span>
+          <h3>Climatisation</h3>
+          <p>Installation, entretien et maintenance de systèmes de climatisation, pour un
+             confort thermique fiable toute l'année.</p>
+          <a href="#contact" class="lien-savoir-plus">En savoir plus <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="carte-service reveal">
+        <div class="carte-service-image">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/046/371/170/small_2x/man-installs-solar-panels-on-roof-worker-installing-solar-panels-outdoors-photo.jpg" alt="Panneaux d'énergie photovoltaïque" loading="lazy">
+        </div>
+        <div class="carte-service-corps">
+          <span class="carte-service-icone" aria-hidden="true">☀️</span>
+          <h3>Énergie photovoltaïque</h3>
+          <p>Panneaux solaires et solutions énergétiques durables, étudiées selon votre
+             consommation réelle pour réduire votre dépendance au réseau.</p>
+          <a href="#contact" class="lien-savoir-plus">En savoir plus <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="carte-service reveal">
+        <div class="carte-service-image">
+          <img src="https://img.freepik.com/premium-photo/african-engineer-work-ai_431161-13554.jpg?w=2000" alt="Maintenance d'équipements industriels" loading="lazy">
+        </div>
+        <div class="carte-service-corps">
+          <span class="carte-service-icone" aria-hidden="true">⚙️</span>
+          <h3>Maintenance industrielle</h3>
+          <p>Maintenance préventive et curative des équipements industriels, assurée par des
+             techniciens qualifiés pour limiter les interruptions d'activité.</p>
+          <a href="#contact" class="lien-savoir-plus">En savoir plus <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="carte-service reveal">
+        <div class="carte-service-image">
+          <img src="https://img.freepik.com/photos-premium/portrait-du-visage-du-directeur-du-sourire-femme-noire-heureuse-chef-entreprise-employe-pour-start-up_773922-18849.jpg" alt="Mise à disposition de personnel qualifié" loading="lazy">
+        </div>
+        <div class="carte-service-corps">
+          <span class="carte-service-icone" aria-hidden="true">🤝</span>
+          <h3>Personnel de tout genre</h3>
+          <p>Mise à disposition de personnel qualifié selon vos besoins ponctuels ou durables,
+             avec une sélection rigoureuse adaptée à chaque poste.</p>
+          <a href="#contact" class="lien-savoir-plus">En savoir plus <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== POURQUOI NOUS CHOISIR ==================== -->
+<section class="section" id="pourquoi">
+  <div class="conteneur">
+    <div class="entete-section reveal">
+      <p class="eyebrow"><span class="eyebrow-trait"></span> POURQUOI NOUS CHOISIR</p>
+      <h2 class="titre-section">Une confiance qui se construit sur des faits</h2>
+    </div>
+
+    <div class="grille-atouts">
+      <div class="atout-carte reveal">
+        <span class="atout-icone" aria-hidden="true">🎯</span>
+        <h3>Professionnalisme</h3>
+        <p>Une posture professionnelle exigée à chaque étape de la mission.</p>
+      </div>
+      <div class="atout-carte reveal">
+        <span class="atout-icone" aria-hidden="true">🎓</span>
+        <h3>Personnel qualifié</h3>
+        <p>Des équipes sélectionnées, formées et régulièrement évaluées.</p>
+      </div>
+      <div class="atout-carte reveal">
+        <span class="atout-icone" aria-hidden="true">⏱️</span>
+        <h3>Respect des délais</h3>
+        <p>Des engagements de temps que nous tenons, sans compromis.</p>
+      </div>
+      <div class="atout-carte reveal">
+        <span class="atout-icone" aria-hidden="true">🧩</span>
+        <h3>Solutions personnalisées</h3>
+        <p>Chaque offre est construite autour de votre besoin réel.</p>
+      </div>
+      <div class="atout-carte reveal">
+        <span class="atout-icone" aria-hidden="true">📞</span>
+        <h3>Disponibilité</h3>
+        <p>Une équipe joignable et mobilisable rapidement, sur site.</p>
+      </div>
+      <div class="atout-carte reveal">
+        <span class="atout-icone" aria-hidden="true">✅</span>
+        <h3>Qualité</h3>
+        <p>Des standards élevés maintenus sur l'ensemble de nos prestations.</p>
+      </div>
+      <div class="atout-carte reveal">
+        <span class="atout-icone" aria-hidden="true">🔒</span>
+        <h3>Fiabilité</h3>
+        <p>Un partenaire stable sur lequel vous pouvez réellement compter.</p>
+      </div>
+      <div class="atout-carte reveal">
+        <span class="atout-icone" aria-hidden="true">⚡</span>
+        <h3>Réactivité</h3>
+        <p>Des réponses rapides à vos demandes et à vos imprévus.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== NOS VALEURS ==================== -->
+<section class="section section-accent" id="valeurs">
+  <div class="conteneur">
+    <div class="entete-section reveal">
+      <p class="eyebrow eyebrow-clair"><span class="eyebrow-trait"></span> NOS VALEURS</p>
+      <h2 class="titre-section titre-clair">Ce qui guide chacune de nos décisions</h2>
+    </div>
+    <div class="grille-valeurs">
+      <div class="valeur-item reveal"><span>Excellence</span></div>
+      <div class="valeur-item reveal"><span>Intégrité</span></div>
+      <div class="valeur-item reveal"><span>Innovation</span></div>
+      <div class="valeur-item reveal"><span>Qualité</span></div>
+      <div class="valeur-item reveal"><span>Sécurité</span></div>
+      <div class="valeur-item reveal"><span>Engagement</span></div>
+      <div class="valeur-item reveal"><span>Satisfaction client</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== NOTRE MÉTHODE DE TRAVAIL ==================== -->
+<section class="section" id="methode">
+  <div class="conteneur">
+    <div class="entete-section reveal">
+      <p class="eyebrow"><span class="eyebrow-trait"></span> NOTRE MÉTHODE</p>
+      <h2 class="titre-section">Un processus clair, du premier contact au suivi</h2>
+    </div>
+
+    <div class="frise-chronologique">
+      <div class="frise-etape reveal">
+        <span class="frise-numero">01</span>
+        <h3>Prise de contact</h3>
+        <p>Vous nous exposez votre besoin par téléphone, email ou via le formulaire du site.</p>
+      </div>
+      <div class="frise-etape reveal">
+        <span class="frise-numero">02</span>
+        <h3>Analyse du besoin</h3>
+        <p>Nous étudions votre contexte pour cerner précisément les enjeux à traiter.</p>
+      </div>
+      <div class="frise-etape reveal">
+        <span class="frise-numero">03</span>
+        <h3>Proposition</h3>
+        <p>Nous vous transmettons une offre claire, détaillée et adaptée à votre budget.</p>
+      </div>
+      <div class="frise-etape reveal">
+        <span class="frise-numero">04</span>
+        <h3>Réalisation</h3>
+        <p>Nos équipes interviennent selon le planning et les standards convenus ensemble.</p>
+      </div>
+      <div class="frise-etape reveal">
+        <span class="frise-numero">05</span>
+        <h3>Livraison</h3>
+        <p>La prestation vous est présentée et validée à travers un contrôle rigoureux.</p>
+      </div>
+      <div class="frise-etape reveal">
+        <span class="frise-numero">06</span>
+        <h3>Suivi du client</h3>
+        <p>Nous restons disponibles après la mission pour garantir votre satisfaction durable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== TÉMOIGNAGES ==================== -->
+<section class="section section-sombre" id="temoignages">
+  <div class="conteneur">
+    <div class="entete-section reveal">
+      <p class="eyebrow eyebrow-clair"><span class="eyebrow-trait"></span> TÉMOIGNAGES</p>
+      <h2 class="titre-section titre-clair">Ce que nos clients disent de nous</h2>
+    </div>
+
+    <div class="grille-temoignages">
+      <figure class="carte-temoignage reveal">
+        <blockquote>« Une équipe de sécurité sérieuse et ponctuelle. Nos locaux n'ont jamais
+          été aussi bien protégés, avec un vrai suivi de la part de DARREN SERVICE. »</blockquote>
+        <figcaption>
+          <img src="https://picsum.photos/seed/darren-temoin1/100/100" alt="Photo de profil de Grâce M.">
+          <div><strong>Lionel</strong><span></span></div>
+        </figcaption>
+      </figure>
+
+      <figure class="carte-temoignage reveal">
+        <blockquote>« Les travaux de rénovation ont été livrés dans les délais annoncés, avec
+          une finition très soignée. Une entreprise que je recommande sans hésiter. »</blockquote>
+        <figcaption>
+          <img src="https://picsum.photos/seed/darren-temoin2/100/100" alt="Photo de profil de Patrick K.">
+          <div><strong>Jovani M</strong><span></span></div>
+        </figcaption>
+      </figure>
+
+      <figure class="carte-temoignage reveal">
+        <blockquote>« Le personnel d'accueil mis à disposition est toujours élégant et
+          professionnel. Nos visiteurs le remarquent à chaque événement. »</blockquote>
+        <figcaption>
+          <img src="https://picsum.photos/seed/darren-temoin3/100/100" alt="Photo de profil de Josée N.">
+          <div><strong>Vincent K</strong><span></span></div>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FAQ ==================== -->
+<section class="section" id="faq">
+  <div class="conteneur conteneur-etroit">
+    <div class="entete-section reveal">
+      <p class="eyebrow"><span class="eyebrow-trait"></span> QUESTIONS FRÉQUENTES</p>
+      <h2 class="titre-section">Vous avez des questions ? Nous avons les réponses</h2>
+    </div>
+
+    <div class="accordeon" id="accordeonFaq">
+      <div class="accordeon-item reveal">
+        <button class="accordeon-question" aria-expanded="false">
+          Sur quelles zones intervenez-vous ?
+          <span class="accordeon-icone" aria-hidden="true">+</span>
+        </button>
+        <div class="accordeon-reponse">
+          <p>Nous intervenons principalement à Kinshasa et pouvons étudier toute demande
+             ponctuelle en dehors de la ville selon la nature de la mission.</p>
+        </div>
+      </div>
+
+      <div class="accordeon-item reveal">
+        <button class="accordeon-question" aria-expanded="false">
+          Comment obtenir un devis ?
+          <span class="accordeon-icone" aria-hidden="true">+</span>
+        </button>
+        <div class="accordeon-reponse">
+          <p>Il vous suffit de remplir le formulaire de contact ci-dessous ou de nous joindre
+             par téléphone. Nous revenons vers vous rapidement avec une proposition claire.</p>
+        </div>
+      </div>
+
+      <div class="accordeon-item reveal">
+        <button class="accordeon-question" aria-expanded="false">
+          Vos agents et techniciens sont-ils formés ?
+          <span class="accordeon-icone" aria-hidden="true">+</span>
+        </button>
+        <div class="accordeon-reponse">
+          <p>Oui, chaque intervenant est sélectionné puis formé selon les exigences propres
+             à son domaine, avec un encadrement continu sur le terrain.</p>
+        </div>
+      </div>
+
+      <div class="accordeon-item reveal">
+        <button class="accordeon-question" aria-expanded="false">
+          Proposez-vous des contrats sur le long terme ?
+          <span class="accordeon-icone" aria-hidden="true">+</span>
+        </button>
+        <div class="accordeon-reponse">
+          <p>Oui, nous accompagnons aussi bien des besoins ponctuels que des contrats de
+             prestation continue, avec un suivi régulier de la qualité de service.</p>
+        </div>
+      </div>
+
+      <div class="accordeon-item reveal">
+        <button class="accordeon-question" aria-expanded="false">
+          Comment se déroule le premier échange ?
+          <span class="accordeon-icone" aria-hidden="true">+</span>
+        </button>
+        <div class="accordeon-reponse">
+          <p>Un premier échange permet de comprendre votre besoin, puis nous analysons le
+             contexte avant de vous transmettre une proposition adaptée et chiffrée.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CONTACT ==================== -->
+<section class="section section-accent" id="contact">
+  <div class="conteneur grille-contact">
+    <div class="contact-infos reveal">
+      <p class="eyebrow eyebrow-clair"><span class="eyebrow-trait"></span> CONTACT</p>
+      <h2 class="titre-section titre-clair">Parlons de votre projet</h2>
+      <p class="contact-texte">
+        Notre équipe est disponible pour étudier votre demande et vous proposer la solution
+        la plus adaptée. Contactez-nous dès aujourd'hui.
+      </p>
+
+      <ul class="liste-contact">
+        <li><span aria-hidden="true">📍</span> 12, Avenue de la Paix, Commune de la Gombe, Kinshasa, RDC</li>
+        <li><span aria-hidden="true">📞</span> <a href="tel:+243848402944">+243 848 402 944</a></li>
+        <li><span aria-hidden="true">📞</span> <a href="tel:+243813390262">+243 813 390 262</a></li>
+        <li><span aria-hidden="true">✉️</span> <a href="mailto:Darrenservicessarl@gmail.com">Darrenservicessarl@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <form class="formulaire-contact reveal" id="formulaireContact" novalidate>
+      <div class="champ-groupe">
+        <label for="champNom">Nom complet</label>
+        <input type="text" id="champNom" name="nom" placeholder="Votre nom" required>
+      </div>
+      <div class="champ-groupe">
+        <label for="champEmail">Adresse email</label>
+        <input type="email" id="champEmail" name="email" placeholder="vous@exemple.com" required>
+      </div>
+      <div class="champ-groupe">
+        <label for="champTelephone">Téléphone</label>
+        <input type="tel" id="champTelephone" name="telephone" placeholder="+243 ...">
+      </div>
+      <div class="champ-groupe">
+        <label for="champSujet">Sujet</label>
+        <input type="text" id="champSujet" name="sujet" placeholder="Objet de votre demande" required>
+      </div>
+      <div class="champ-groupe champ-pleine-largeur">
+        <label for="champMessage">Message</label>
+        <textarea id="champMessage" name="message" rows="5" placeholder="Décrivez votre besoin..." required></textarea>
+      </div>
+      <button type="submit" class="bouton bouton-principal bouton-large champ-pleine-largeur">Envoyer</button>
+      <p class="formulaire-message" id="formulaireMessage" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ==================== PIED DE PAGE ==================== -->
+<footer class="pied-de-page">
+  <div class="conteneur grille-pied">
+    <div class="pied-bloc pied-marque">
+      <a href="#accueil" class="logo-marque logo-marque-pied">
+        <span class="logo-icone" aria-hidden="true">
+          <img src="favicon.jpeg" alt="Logo DARREN SERVICE" width="36" height="36">
+        </span>
+        <span class="logo-texte">DARREN <strong>SERVICE</strong></span>
+      </a>
+      <p>Une expertise reconnue chez nos clients. Neuf domaines de service, une même exigence
+         de qualité et de confiance.</p>
+      <div class="pied-reseaux">
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+      </div>
+    </div>
+
+    <div class="pied-bloc">
+      <h4>Liens rapides</h4>
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Nos services</a></li>
+        <li><a href="#methode">Notre méthode</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="pied-bloc">
+      <h4>Coordonnées</h4>
+      <ul>
+        <li>12, Avenue de la Paix, Gombe, Kinshasa, RDC</li>
+        <li><a href="tel:+243848402944">+243 848 402 944</a></li>
+        <li><a href="tel:+243813390262">+243 813 390 262</a></li>
+        <li><a href="mailto:Darrenservicessarl@gmail.com">Darrenservicessarl@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pied-copyright">
+    <p>&copy; <span id="anneeCourante">2026</span> DARREN SERVICE Sarl — Tous droits réservés.</p>
+  </div>
+</footer>
+
+<!-- ==================== ÉLÉMENTS FLOTTANTS ==================== -->
+<a href="https://wa.me/243848402944" class="bouton-whatsapp" target="_blank" rel="noopener" aria-label="Discuter sur WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor"><path d="M16.001 3C9.1 3 3.5 8.6 3.5 15.5c0 2.3.6 4.5 1.8 6.5L3 29l7.2-2.2c1.9 1 4 1.6 6.2 1.6h.1c6.9 0 12.5-5.6 12.5-12.5S22.9 3 16.001 3zm0 22.7h-.1c-2 0-3.9-.5-5.6-1.5l-.4-.2-4.3 1.3 1.3-4.2-.3-.4c-1.1-1.7-1.7-3.7-1.7-5.7 0-5.9 4.8-10.7 10.7-10.7s10.7 4.8 10.7 10.7-4.9 10.7-10.3 10.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.5-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.2 3.4 5.4 4.7.8.3 1.3.5 1.8.7.8.2 1.4.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>
+</a>
+
+<button class="bouton-retour-haut" id="boutonRetourHaut" aria-label="Retour en haut">
+  <span aria-hidden="true">↑</span>
+</button>
+
+<script src="script.js?v=3"></script>
 </body>
 </html>
