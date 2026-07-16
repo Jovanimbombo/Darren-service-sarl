@@ -1,7 +1,3 @@
-/* =========================================================================
-   DARREN SERVICE Sarl — Script principal (JavaScript Vanilla)
-   Aucune dépendance externe. Toutes les variables sont nommées en français.
-   ========================================================================= */
 
 document.addEventListener('DOMContentLoaded', function () {
 
